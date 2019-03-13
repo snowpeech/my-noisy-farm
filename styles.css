@@ -2,6 +2,11 @@
 * {
     position: absolute;
 }
+
+img:hover {
+  cursor: pointer;
+}
+
 .background-image{
 
 	
