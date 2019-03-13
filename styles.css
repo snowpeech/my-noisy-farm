@@ -1,0 +1,22 @@
+
+* {
+    position: absolute;
+}
+.background-image{
+
+	
+	top: 0px;
+	left: 0px;
+	height: auto;
+	width: 1000px;
+
+	
+}
+
+#horse {
+
+	width: 300px;
+	top: 320px;
+	left: 0px;
+}
+
