@@ -20,3 +20,18 @@
 	left: 0px;
 }
 
+#cow {
+
+	width: 314px;
+    top: 309px;
+    left: 686px;
+}
+
+#rooster {
+
+	width: 314px;
+    top: 50px;
+    left: 465px;
+    height: 150px;
+    width: auto;
+}

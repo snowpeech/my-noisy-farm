@@ -10,15 +10,31 @@
  		
 		<script>
   		function play(){
-        var audio = document.getElementById("audio");
-        audio.play();
-                 }
+	        var audio = document.getElementById("audio");
+	        audio.play();
+        }
     	</script>
 
  		<img id="horse" src="horse.png" value="PLAY"  onclick="play()">
  		<audio id="audio" src="horse.wav" ></audio>
 
- 		<img id="cow" src="cow.png">
+		<script>
+  		function playcow(){
+	        var cowAudio = document.getElementById("cowAudio");
+	        cowAudio.play();
+        }
+    	</script>
+ 		<img id="cow" src="cow.png" value="PLAY"  onclick="playcow()">
+ 		<audio id="cowAudio" src="cow.wav"></audio>
+ 		
+		<script>
+  		function playrooster(){
+	        var roosterAudio = document.getElementById("roosterAudio");
+	        roosterAudio.play();
+        }
+		</script>
+ 		<img id="rooster" src="rooster.png" value="PLAY"  onclick="playrooster()">
+ 		<audio id="roosterAudio" src="rooster.wav"></audio>
  		<!--<img id="pig" src="pig.png">
  		<img id="rooster" src="rooster.png"> 
 
