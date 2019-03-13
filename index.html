@@ -6,6 +6,7 @@
 </head>
 <body>
 
+		
  		<img class="background-image" src="farm-pic.jpg">
  		
 		<script>
@@ -35,19 +36,28 @@
 		</script>
  		<img id="rooster" src="rooster.png" value="PLAY"  onclick="playrooster()">
  		<audio id="roosterAudio" src="rooster.wav"></audio>
- 		<!--<img id="pig" src="pig.png">
- 		<img id="rooster" src="rooster.png"> 
+
+
+		<script>
+  		function playpig(){
+	        var pigAudio = document.getElementById("pigAudio");
+	        pigAudio.play();
+        }
+		</script>
+		<img id="pig" src="pig.png" value="PLAY"  onclick="playpig()">
+ 		<audio id="pigAudio" src="pig.wav"></audio>
+ 	 
 
 
  	<script>
-  		function play(){
-        var audio = document.getElementById("audio");
-        audio.play();
+  		function playfox(){
+        var foxAudio = document.getElementById("foxAudio");
+        foxAudio.play();
                  }
     </script>
 
-	<img src="fox.png" value="PLAY"  onclick="play()">
-	<audio id="audio" src="cow.wav" ></audio>-->
+	<img id="fox" src="fox.png" value="PLAY"  onclick="playfox()">
+	<audio id="foxAudio" src="fox.mp3" ></audio>
 
 </body>
 </html>

@@ -29,9 +29,21 @@
 
 #rooster {
 
-	width: 314px;
+	
     top: 50px;
-    left: 465px;
-    height: 150px;
-    width: auto;
+    left: 405px;
+    height: 291px;
+    
+}
+
+#pig {
+   width: 32px;
+   top: 480px;
+   left: 726px;
+}
+
+#fox {
+    width: 71px;
+    top: 437px;
+    left: 518px;
 }
